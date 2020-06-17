@@ -79,7 +79,7 @@ def run():
 
     with open(output_file, "w+") as file:
         content = prettify(offers).decode("utf-8")
-        # Add brackets
+        # Fixing errors added by the form I am adding the CDATA
         content = content.replace("&lt;", "<")
         content = content.replace("&gt;", ">")
         content = content.replace("&amp;", "&")        
