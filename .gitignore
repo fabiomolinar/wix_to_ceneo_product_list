@@ -1,8 +1,5 @@
 # I don't want to save inputs/outputs files to github
-input/
-output/
-!input/.gitkeep
-!output/.gitkeep
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
