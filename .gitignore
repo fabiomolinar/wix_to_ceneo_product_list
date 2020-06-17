@@ -1,3 +1,7 @@
+# I don't want to save inputs/outputs files to github
+input/
+output/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
