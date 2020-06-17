@@ -34,6 +34,9 @@ def add_cdata(text):
     return "<![CDATA[" + text + "]]>"
 
 def run():
+    # Settings logic
+    if os.path.isfile(os.path.join(os.getcwd(), "my_settings.py")):
+        from my_settings import settings
     products = []
     # Standard .csv file name
     standard_input_file_name = "catalog_products.csv"
